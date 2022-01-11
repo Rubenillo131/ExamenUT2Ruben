@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaseDatos">
+
+    <EditText
+        android:id="@+id/etxt1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="@string/etxt_basedatos_grupo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etxt2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/etxt1"
+        android:ems="10"
+        android:hint="@string/etxt_basedatos_nacionalidad"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etxt3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/etxt2"
+        android:ems="10"
+        android:hint="@string/etxt_basedatos_genero"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etxt4"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/etxt3"
+        android:ems="10"
+        android:hint="@string/etxt_basedatos_year" />
+
+    <Button
+        android:id="@+id/btninsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etxt4"
+        android:text="@string/btn_basedatos_insert" />
+</RelativeLayout>

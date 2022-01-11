@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">ExamenUT2Ruben</string>
+    <string name="btn_main_sumar">ACTIVIDAD SUMAR</string>
+    <string name="btn_main_basedatos">BASE DE DATOS</string>
+    <string name="txt_sumaryrestar_txt">Actividad para sumar y restar</string>
+    <string name="etxt_basedatos_grupo">Introduzca el nombre del grupo</string>
+    <string name="etxt_basedatos_nacionalidad">Introduzca la nacionalidad</string>
+    <string name="etxt_basedatos_genero">Introduzca el género</string>
+    <string name="etxt_basedatos_year">Introduzca el año de creación</string>
+    <string name="btn_basedatos_insert">INSERTAR GRUPO</string>
+</resources>

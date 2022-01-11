@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_main_sumar">ADD ACTIVITY</string>
+    <string name="btn_main_basedatos">DATABASE</string>
+    <string name="txt_sumaryrestar_txt">Activity to add and substract</string>
+    <string name="etxt_basedatos_grupo">Enter group name</string>
+    <string name="etxt_basedatos_nacionalidad">Enter nationality</string>
+    <string name="etxt_basedatos_genero">Enter the musical genre</string>
+    <string name="etxt_basedatos_year">Enter the year of creation</string>
+    <string name="btn_basedatos_insert">INSERT GROUP</string>
+</resources>
